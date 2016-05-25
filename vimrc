@@ -10,11 +10,11 @@ set history=100
 " Set to auto read when a file is changed from the outside
 " set autoread
 
-" Map <leader> to ' '(space)
-let mapleader=' '
+" Map <leader> to ','
+let mapleader=','
 
 " Map fd to <ESC> in insert mode
-imap fd <esc>
+imap jj <esc>
 
 " Fast saving
 nmap <silent> ;w :w<CR>
